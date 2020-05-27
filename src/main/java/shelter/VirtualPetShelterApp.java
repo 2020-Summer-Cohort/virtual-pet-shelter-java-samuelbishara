@@ -3,6 +3,16 @@ package shelter;
 import java.util.Scanner;
 import java.util.ArrayList;
 
+    // Project has the right skeleton but has a couple issues we'd like to resolve:
+        // -The exit conditions defined on lines 43 - 76 are not entirely necessary. Adding a user input option to exit is a much more
+        // straightforward solution to allowing the user to exit the game
+        // -Make sure the user options (line 26) line up with what their choices mean. It says userSelection 4 is to play with a pet
+        // when in reality it is adopting out a pet
+        // -Add option to play with individual pet
+        // -Add option to add a pet the the shelter
+        // -Add a tickAll() method that raises each pet's numbers each time through the while loop
+        // -Only call "break;" in one place (when the user decides to exit the game
+
 public class VirtualPetShelterApp {
 
     public static void main(String[] args) {
